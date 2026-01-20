@@ -69,21 +69,9 @@ Each microservice is independently deployable and owns its own database.
 The system is fully containerized using Docker and managed via Docker Compose.
 All services run inside a dedicated Docker network.
 
-### Ports Mapping
-
-| Service | Internal Port | External URL |
-|-------|---------------|--------------|
-| Company MS | 8081 | http://localhost:8081 |
-| Job MS | 8082 | http://localhost:8082 |
-| Review MS | 8083 | http://localhost:8083 |
-| Zipkin | 9411 | http://localhost:9411 |
-| pgAdmin | 80 | http://localhost:5050 |
 
 ---
 
-## 🚀 How to Run the Project
 
-### Step 1 – Clone the Repository
-```bash
-git clone https://github.com/YourUsername/job-management-microservices.git
+
 
